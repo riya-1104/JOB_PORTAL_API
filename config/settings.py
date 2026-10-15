@@ -38,6 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    
+    # JobPortalAPI apps
+    'accounts.apps.AccountsConfig',
+    'jobs.apps.JobsConfig',
+    'applications.apps.ApplicationsConfig',
 ]
 
 MIDDLEWARE = [
